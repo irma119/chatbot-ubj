@@ -48,6 +48,23 @@ Silahkan paste kode tersebut pada aplikasi ngrok dan tekan enter
 jika sudah berhasil silahkan ketikkan "ngrok http 5000" untuk mengaktifkan server, server yang berhasil terhubung akan tampil sebagai berikut :
 ![image](https://github.com/irma119/chatbot-ubj/assets/110200862/b6004448-da56-4583-964b-8662ea816f47)
 
+jika sudah selesai silahkan running file **app2.py** untuk menghubungkan server kedalam whatsapp
+selanjutnya anda dapat copy http **web interface ** untuk di paste pada akun twilio anda 
+
+![image](https://github.com/irma119/chatbot-ubj/assets/110200862/64ff108b-a196-4a8a-a230-66f6ce996627)
+silahkan anda dapat paste http tadi pada bagian **when a message comes in** dengan method **POST**
+
+Untuk mengaktifkan aplikasi silahka buka whatsapp dengan mengirim pesan **private-anyone** ke nomor whatsapp twilio. Jika berhasil anda akan mendapatkan pesan "Twilio Sandbox: ✅ You are all set! The sandbox can now send/receive messages from whatsapp:+14155238886. Reply stop to leave the sandbox any time."
+
+Silahkan masukkan pesan sesuai dengan data pada json.
+contoh chat pada whatsapp
+![image](https://github.com/irma119/chatbot-ubj/assets/110200862/b07788d1-7aa4-4117-b61c-ffac8bc58896)
+
+*Selamat mencoba semoga bermanfaat 
+Note: "DIHARAPKAN SEMUA FILE DIBUAT SATU FOLDER JIKA INGIN MENDOWNLOAD FOLDER DIATAS SILAHKAN DI BAGIAN POJOK KANAN PILIH DOWNLOAD ZIP"
+
+![ini](https://github.com/irma119/chatbot-deployment-unichat/assets/110200862/0e5745ef-f27a-4e93-a60d-de3b30438b7f)
+
 
 
 
