@@ -1,0 +1,919 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "sore",
+                "malam"
+                
+            ],
+            "responses": [
+                "Selamat datang di Unichat, ini adalah teman informasi Penerimaan Mahasiswa Baru Ubhara Jaya",
+                "Helo! Ini Unichat, ini adalah teman informasi Penerimaan Mahasiswa Baru Ubhara Jaya",
+                "Pagi! Ada yang bisa saya bantu ?",
+                "Siang! Silahkan mau tau informasi apa ?"
+            ]
+        },
+        {
+            "tag": "unichat",
+            "patterns": [
+                "apa itu unichat?",
+                "siapa unichat?"
+            ],
+            "responses": [
+                "Unichat itu adalah teman informasi kamu teentang penerimaan mahasiswa baru di kampus Ubhara Jaya!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Goodbye",
+                "Selamat Tinggal",
+                "Sampai Jumpa",
+                "See you"
+            ],
+            "responses": [
+                "Dadah",
+                "Bye",
+                "Goodbye",
+                "Sampai Jumpa Lagi",
+                "See You!"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Sama - sama",
+                "Dengan senang hati"
+            ]
+        },
+        {
+            "tag": "info_kampus",
+            "patterns": [
+                "Bagaimana deskripsi singkat tentang Universitas Bhayangkara Jakarta Raya ?",
+                "Apa itu kampus Universitas Bhayangkara Jakarta Raya ?",
+                "Universitas Bhayangkara Jakarta Raya",
+                "Tentang Ubhara jaya",
+                "Informasi seputar Universitas Bhayangkara Jakarta Raya"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta Raya (Ubhara Jaya) sebagai salah satu Perguruan Tinggi Swasta yang berada dibawah pembinaan Yayasan Brata Bhakti sebagai badan penyelenggaranya, berkewajiban mewujudkan tujuan pendidikan nasional dengan Visi dan Misi nya bagi mendukung keberhasilan tugas Kepolisian Negara Republik Indonesia khususnya dan pengembangan kualitas hidup bermasyarakat berbangsa dan bernegara pada umumnya."
+            ]
+        },
+        {
+            "tag": "info_kampus_lokasi",
+            "patterns": [
+                "Dimana lokasi Universitas Bhayangkara Jakarta Raya berada?",
+                "Lokasi Ubhara Jaya?",
+                "Letak Universitas Bhayangkara Jakarta Raya?",
+                "Berada dimana Ubhara Jaya ini?",
+                "Dimana saja letak kampus tersebut?",
+                "Ada berapa kampus Ubhara Jaya ini?"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta Raya terdapat 2 kampus dengan kampus 1 berada di Jl. Harsono RM No.67 Ragunan Pasar Minggu, Jakarta Selatan, DKI Jakarta 12550, Indonesia dan kampus 2 di Jl. Raya Perjuangan Bekasi Utara, Kota Bekasi, Jawa Barat 17121, Indonesia"
+            ]
+        },
+        {
+            "tag": "info_kampus_akreditasi",
+            "patterns": [
+                "apa akreditasi Universitas Bhayangkara Jakarta Raya?",
+                "Akreditasi kampus?",
+                "Bagaimana akreditasi kampus Ubhara Jaya ini?"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta raya terakreditasi B (Baik sekali)"
+            ]
+        },
+        {
+            "tag": "info_kampus_prodi_diminati",
+            "patterns": [
+                "Fakultas dan prodi apa yang paling banyak diminati di kampus ini?",
+                "Fakultas apa yang yang paling diminati?",
+                "prodi apa yang paling diminati?",
+                "prodi yang paling diminati"
+            ],
+            "responses": [
+                "Saat ini Fakultas Ekonomi dan Bisnis dengan Program Studi Manajemen, Fakultas Ilmu Komunikasi dengan Program Studi Ilmu Komunikasi, Fakultas Ilmu Komputer dengan program studi Informatika dan Fakultas Hukum dengan Program studi Ilmu Hukum yang banyak diminati oleh mahasiswa baru"
+            ]
+        },
+        {
+            "tag": "info_kampus_fakultas",
+            "patterns": [
+                "Ada berapa jumlah fakultas yang ada di kampus Ubhara?",
+                "Apa saja fakultas yang tersedia di kampus Ubhara Jaya?"
+            ],
+            "responses": [
+                "Di universitas Bhayangkara Jakarta raya terdapat 7 Fakultas dengan program S1, S2 dan S3 yaitu Hukum, Ekonomi & Bisnis,Teknik ,Psikologi ,Ilmu Komunikasi, Ilmu Pendidikan, Ilmu Komputer"
+            ]
+        },
+        {
+            "tag": "info_kampus_prodi",
+            "patterns": [
+                "program studi apa saja yang tersedia di Universitas Bhayangkara Jakarta Raya?",
+                "berapa banyak program studi yang tersedia?",
+                "apa saja program studi yang tersedia"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta Raya terdapat 12 Program Studi S1 Yaitu Ilmu Hukum,Teknik Industri, Teknik Kimia,Teknik Lingkungan,Teknik Perminyakan, Akuntansi, Manajemen, Ilmu Komunikasi,Psikologi,Pendidikan Guru Sekolah Dasar, Pendidikan Kepelatihan Olahraga dan Informatika. Terdapat juga program S2 dengan program studi Hukum, Manajemen, Akuntansi dan Ilmu Komunikasi serta program S3 deengan program studi Manajemen"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_ilmu_hukum",
+            "patterns": [
+                "Bagaimana akreditasi program studi sarjana ilmu hukum?",
+                "akreditasi sarjana ilmu hukum?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Ilmu Hukum terakreditasi B Berdasarkan Surat Keputusan BAN-PT No. 749/SK/BAN-PT/Akred/S/IV/2019 yang berlaku sampai dengan 09 April 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s2_ilmu_hukum",
+            "patterns": [
+                "apa akreditasi program studi magister ilmu hukum?",
+                "bagaimana akreditasi program studi ilmu hukum tingkat magister?"
+            ],
+            "responses": [
+                "Program Studi Magister Ilmu Hukum terakreditasi \u201cB\u201d Berdasarkan Surat Keputusan BAN-PT No. 3501/SK/BAN-PT/Ak.Ppj/M/VIII/2023 yang berlaku sampai dengan 13 september 2028"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s3_ilmu_hukum",
+            "patterns": [
+                "apa akreditasi ilmu hukum program doktoral?",
+                "bagaimana akreditasi program doktoral prodi ilmu hukum?"
+            ],
+            "responses": [
+                "Program Studi Doktor Ilmu Hukum terakreditasi \u201cB\u201d"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_teknik_industri",
+            "patterns": [
+                "apa akreditasi program sarjana prodi teknik industri?",
+                "akreditasi sarjana teknik industri?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Teknik Industri, terakreditasi \u201cB\u201d berdasarkan Keputusan BAN-PT No. 816/SK/BAN-PT/Akred/S/IV/2019, yang berlaku sampai 9 april 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_teknik_kimia",
+            "patterns": [
+                "bagaimana akreditasi program sarjana prodi teknik kimia?",
+                "apa akreditasi program studi teknik kimia?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Teknik Kimia, terakreditasi \u201cBaik Sekali\u201d berdasarkan Keputusan LAM Teknik No. 0222/SK/LAM Teknik/AS/VIII/2023, yang berlaku sampai 20 agustus 2028"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_teknik_lingkungan",
+            "patterns": [
+                "apa akreditasi program sarjana prodi teknik lingkungan?",
+                "bagaimana akreditasi prodi teknik lingkungan?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Teknik Lingkungan, terakreditasi \u201cB\u201d berdasarkan SK BAN-PT, Nomor : 1825/SK/BAN-PT/Akred/S/V/2019 tanggal 28 Mei 2019"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_teknik_perminyakan",
+            "patterns": [
+                "bagaimana akreditasi program studi teknik perminyakan?",
+                "apa akreditasi program sarjana prodi teknik perminyakan?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Teknik Perminyakan, terakreditasi terakreditasi \u201cB\u201d berdasarkan SK BAN-PT, Nomor : 6183/SK/BAN-PT/Ak.KP/S/IX/2022 yang berlaku sampai tanggal 14 September 2022"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_manajemen",
+            "patterns": [
+                "apa akreditasi program studi sarjana manajemen?",
+                "bagaimana akreditasi program sarjana prodi manajemen?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Manajemen, terakreditasi \u201cUNGGUL\u201d Berdasarkan Keputusan LAMEMBA No. 655/DE/A.5/AR.10/VIII/2023, yang berlaku sampai 31 agustus 2028"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s2_manajemen",
+            "patterns": [
+                "apa akreditasi program magister prodi manajemen?",
+                "bagaimana akreditasi program studi manajemen program magister?"
+            ],
+            "responses": [
+                "Program Studi Magister Manajemen, terakreditasi {B} berdasarkan Keputusan BAN-PT No. 4591/SK/BAN-PT/Akred/M/XI/2019, yang berlaku sampai 13 November 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s3_manajemen",
+            "patterns": [
+                "bagaimana akreditasi program studi manajemen program doktoral?",
+                "apa akreditasi prodi manajemen program doktoral?"
+            ],
+            "responses": [
+                "Program Studi Doktor Ilmu Manajemen terakreditasi \u201cBaik\u201d Berdasarkan Keputusan Nomor 8466/SK/BAN-PT/Ak.P/D/X/2022, yang berlaku sampai 25 oktober 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_akuntansi",
+            "patterns": [
+                "apa akreditasi prodi akuntansi program sarjana?",
+                "akreditasi prodi akuntansi ?",
+                "bagaimana akreditasi prodi akuntansi?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Akuntansi, terakreditasi \u201cUNGGUL\u201d Berdasarkan Keputusan LAMEMBA No. 215/DE/A.5/AR.10/II/2023, yang berlaku sampai 3 april 2028"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s2_akuntansi",
+            "patterns": [
+                "apa akreditasi program magister prodi akuntansi?",
+                "bagaimana akreditasi prodi akuntansi magister"
+            ],
+            "responses": [
+                "Program Studi Magister Akuntansi, terakreditasi \u201cBaik\u201d Berdasarkan Keputusan Nomor 6441/SK/BAN-PT/Ak.P/M/IX/2022, yang berlaku sampai 26 september 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_ilmu_komunikasi",
+            "patterns": [
+                "apa akreditasi prodi ilmu komunikasi program S1",
+                "bagaimana akreditasi sarjana ilmu komunikasi?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Ilmu Komunikasi terakreditasi \u201cBaik Sekali\u201d berdasarkan Surat Keputusan Direktur Dewan Eksekutif BAN-PT No. 1344/SK/BAN-PT/Ak.KP/S/IV/2023, yang berlaku sampai 5 agustus 2026"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s2_ilmu_komunikasi",
+            "patterns": [
+                "bagaimana akreditasi prodi ilmu komunikasi program S2?",
+                "apa akreditasi program magister prodi ilmu komunikasi?"
+            ],
+            "responses": [
+                "Program Studi Magister Ilmu Komunikasi terakreditasi \u201cBaik\u201d berdasarkan Keputusan Nomor 6444/SK/BAN-PT/Ak.P/M/IX/2022, yang berlaku sampai 26 september 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_psikologi",
+            "patterns": [
+                "apa akreditasi psikologi program sarjana?",
+                "bagaimana akreditasi program studi psikologi?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Psikologi terakreditasi \u201cB\u201d berdasarkan Keputusan BAN-PT No. 1060/SK/BAN-PT/Akred/S/IV/2019, yang berlaku sampai 23 april 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_pgsd",
+            "patterns": [
+                "bagaimana akreditasi prodi pgsd?",
+                "apa akreditasi program studi pgsd?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Pendidikan Guru Sekolah Dasar, terakreditasi \u201cB\u201d berdasarkan Keputusan BAN-PT No. 2871/SK/BAN-PT/Akred/S/VIII/2019, yang berlaku sampai 6 agustus 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_pko",
+            "patterns": [
+                "apa akreditasi prodi pendidikan kepelatihan olahraga?",
+                "apa akreditasi program studi PKO?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Pendidikan Kepelatihan Olahraga, terakreditasi \u201cBaik\u201d berdasarkan Surat Keputusan Direktur Dewan Eksekutif BAN-PT No. 7670/SK/BAN-PT/Ak.KP/S/X/2022, yang berlaku sampai 13 agustus 2024"
+            ]
+        },
+        {
+            "tag": "akreditasi_prodi_s1_informatika",
+            "patterns": [
+                "bagaimana akreditasi prodi informatika?",
+                "apa akreditasi program studi informatika?"
+            ],
+            "responses": [
+                "Program Studi Sarjana Informatika, terakreditasi \u201cB\u201d berdasarkan Keputusan BAN-PT No. 6326/SK/BAN-PT/Ak-PNB/S/X/2020, yang berlaku sampai 21 november 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_persyaratan_umum",
+            "patterns": [
+                "Apa saja persyaratan umum yang harus dipenuhi untuk mendaftar di Universitas Bhayangkara Jakarta Raya?",
+                "apa persyaratan umum untuk mendaftar?"
+            ],
+            "responses": [
+                "a. Jika belum memiliki akun pendaftaran silahkan melakukan registrasi pendaftaran online. \n b. Jika sudah memiliki akun pendaftaran, silahkan melakukan login menggunakan Username dan Password yang telah diterima saat melakukan registrasi pendaftaran online. \n c. Nama harus seuai dengan ijazah/KTP/Akta Kelahiran \n d. Wajib mencantumkan nomor NIK yang benar sesuai KTP yang dimiliki saat melakukan registrasi pendaftaran online. \n e. Harus menggunakan email yang aktif, karena link verifikasi dikirimkan melalui email"
+            ]
+        },
+        {
+            "tag": "info_daftar_persyaratan_utama",
+            "patterns": [
+                "Apa persyaran utama untuk mendaftar menjadi mahasiswa baru?",
+                "Apa langkah pertama yang perlu dilakukan untuk mendaftar menjadi mahasiswa baru?",
+                "Apa persyaratan utama untuk mendaftar?"
+            ],
+            "responses": [
+                "Melakukan Pendaftaran secara online melalui website berikut  https://pmb.ubharajaya.ac.id/"
+            ]
+        },
+        {
+            "tag": "info_daftar_prosedur",
+            "patterns": [
+                "Bagaimana prosedur pendaftaran PMB S1 di universitas bhayangkara jakarta raya",
+                "Bagaimana proses pendaftaran mahasiswa baru S1 ?"
+            ],
+            "responses": [
+                "berikut langkah - langkah untuk melakukan pendaftaran menjadi mahasiswa baru S1 di Universitas Bhayangkara Jakarta Raya: \n 1. Melakukan registrasi pendaftaran online pada laman https://pmb.ubharajaya.ac.id/registrasi \n 2. Melakukan pengisian formulir yang disikan lewat online. \n 3. Mendapatkan Username dan Password untuk login Akun Pendaftaran. \n 4. Melakukan pembayaran biaya pendaftaran melalui transfer ke Nomor Rekening yag disediakan di aplikasi. \n 5. Mengunggah(upload) berkas persyaratan pendaftaran(bukti transfer pembayaran pendaftaran, pass foto berwarna background merah, kartu identitas(KTP/Passport), Rapot Semester 4 & 5, Ijazah/Transkrip Nilai. \n 6. Mengisi seluruh isian biodata diri dengan benar pada menu data pendaftaran. \n 7. Mencetak kartu pendaftaran"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gel",
+            "patterns": [
+                "Ada berapa gelombang pendaftaran untuk masuk Ubhara?",
+                "Terbuka berapa gelombang pendaftaran di ubhara?"
+            ],
+            "responses": [
+                "Untuk pendaftaran dibuka menjadi 5 gelombang yaitu gelombang 1, gelombang 2, gelombang 3, gelombang 4 dan gelombang ekstra"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gel1",
+            "patterns": [
+                "Dimulai tanggal berapa untuk mendaftar menjadi mahasiswa baru?",
+                "kapan pendaftaran gelombang 1 dibuka?"
+            ],
+            "responses": [
+                "Pendaftaran dimulai dari 1 November - 30 Desember 2022 untuk gelombang 1"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gel2",
+            "patterns": [
+                "Kapan dibuka untuk pendaftaran pada gelombang 2 "
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gel3",
+            "patterns": [
+                "Kapan gelombang 3 akan dibuka untuk pendaftaran?"
+            ],
+            "responses": [
+                "Gelombang 3 pendaftaran dimulai tgl 25 Februari - 28 April 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gel4",
+            "patterns": [
+                "Pada bulan apakah gelombang 4 dibuka ? "
+            ],
+            "responses": [
+                "Gelombang 4 dimulai tgl 29 April - 11 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_gelkstra",
+            "patterns": [
+                "Kapan jadwal pendaftaran pada gelombang ekstra?"
+            ],
+            "responses": [
+                "Gelombang ekstra 12 - 18 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_pendaftaran_deadline_pmb",
+            "patterns": [
+                "Kapan deadline pendaftaran PMB tahun ini?",
+                "kapan pendaftaran terakhir?"
+            ],
+            "responses": [
+                "Berada pada Gelombang Ekstra yang berakhir pada tanggal 18 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_seleksi_gel1",
+            "patterns": [
+                "Dimulai tanggal berapa seleksi dilaksanakan bagi pendaftar gelombang 1?"
+            ],
+            "responses": [
+                "Seleksi akan dilakukan pada tanggal 5 Desember 2022 \u2013 4 Januari 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_seleksi_gel2",
+            "patterns": [
+                "Akan dilaksanakan kapan seleksi bagi pendaftar gelombang 2 ?"
+            ],
+            "responses": [
+                "Seleksi akan dilakukan pada tanggal 30 Januari 2023 \u2013 1 Maret 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_seleksi_gel3",
+            "patterns": [
+                "Bagi pendaftar gelombang 3 dimulai tanggal berapa untuk melaksanakan seleksi?",
+                "kapan seleksi dimulai bagi pendaftar gelombang 3?"
+            ],
+            "responses": [
+                "Seleksi akan dilakukan pada tanggal 3 April 2023 \u2013 3 Mei 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_seleksi_gel4",
+            "patterns": [
+                "Kapan seleksi dimulai bagi pendaftar gelombang 4?"
+            ],
+            "responses": [
+                "Seleksi akan dilakukan pada tanggal 29 Mei 2023 \u2013 16 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_seleksi_gelekstra",
+            "patterns": [
+                "Bagi pendaftar gelombang ekstra kapan seleksi dimulai ?"
+            ],
+            "responses": [
+                "Pada tanggal 21 \u2013 23 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_kelulusangel1",
+            "patterns": [
+                "Dimulai tanggal berapa pengumuman kelulusan bagi pendaftar gelombang 1 ?"
+            ],
+            "responses": [
+                "Pengumuman kelulusan bagi pendaftar gelombang 1 akan dilaksanakan pada 9 Desember 2022  \u2013 6 Januari 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_kelulusangel2",
+            "patterns": [
+                "Kapan akan diumumkan kelulusan bagi pendaftar gelombang 2?"
+            ],
+            "responses": [
+                "Pengumuman kelulusan bagi pendaftar gelombang 2 akan dilaksanakan pada 3 Februari \u2013 3 Maret 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_kelulusangel3",
+            "patterns": [
+                "Bagi pendaftar gelombang 3, kapan jadwal pengumuman kelulusan akan dilaksanakan ? "
+            ],
+            "responses": [
+                "Pengumuman kelulusan bagi pendaftar gelombang 3 akan dilaksanakan pada 7 April \u2013 5 Mei 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_kelulusangel4",
+            "patterns": [
+                "Untuk pendaftar gelombang 4 kapan informasi kelulusan akan diterima oleh pendaftar ? "
+            ],
+            "responses": [
+                "Pengumuman kelulusan bagi pendaftar gelombang 4 akan dilaksanakan pada 2 Juni \u2013 18 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_jadwal_kelulusangelekstra",
+            "patterns": [
+                "Kapan pengumuman kelulusan bagi pendaftar glombang ekstra ?"
+            ],
+            "responses": [
+                "Pengumuman penerimaan bagi pendaftar gelombang ekstra akan dilaksanakan pada 25 Agustus "
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_gel1",
+            "patterns": [
+                "Dimulai tanggal berapa pendaftaran ulang bagi pendaftar gelombang 1 ?"
+            ],
+            "responses": [
+                "Daftar ulang gelombang 1 pada tanggal 9 Desember 2022 - 2 Februari2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_gel2",
+            "patterns": [
+                "Dimulai tanggal berapa pendaftaran ulang bagi pendaftar gelombang 2  ?"
+            ],
+            "responses": [
+                "Daftar ulang gelombang 2 pada tanggal 3 Februari \u2013 3 Maret 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_gel3",
+            "patterns": [
+                "Dimulai tanggal berapa pendaftaran ulang bagi pendaftar gelombang 3?"
+            ],
+            "responses": [
+                "Daftar ulang gelombang 3 pada tanggal 7 April \u2013 1 Juni 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_gel4",
+            "patterns": [
+                "Dimulai tanggal berapa pendaftaran ulang bagi pendaftar gelombang 4 ?"
+            ],
+            "responses": [
+                "Daftar ulang gelombang 4 pada tanggal 2 Juni \u2013 24 Agustus 2023"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_gelekstra",
+            "patterns": [
+                "Dimulai tanggal berapa pendaftaran ulang bagi pendaftar gelombang ekstra ?"
+            ],
+            "responses": [
+                "Daftar ulang gelombang ekstra pada tanggal 25 Agustus \u2013 3 September 2023"
+            ]
+        },
+        {
+            "tag": "pelaksanaan_pkkmb",
+            "patterns": [
+                "Kapan pelaksanaan PKKMB ?",
+                "Dari tanggal berapa PKKMB dilaksanakan?"
+            ],
+            "responses": [
+                "PKKMB dilaksanakan pada tanggal 4 \u2013 8 Septmber 2023 "
+            ]
+        },
+        {
+            "tag": "info_biaya_pendaftaran_s1",
+            "patterns": [
+                "Berapa biaya pendaftaran untuk program S1?",
+                "Berapa nominal yang harus dibayarkan untuk mendaftar S1?"
+            ],
+            "responses": [
+                "Untuk biaya pendaftaran atau pembelian formulir sebesar Rp.300.000 ditransfer ke Bank BRI Nomor Rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya "
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_s1",
+            "patterns": [
+                "Apakah di setiap fakultas memiliki biaya yang berbeda ?",
+                "Rincian biaya pada setiap fakultas?",
+                "Dapat dilihat dimanakah rincian biaya pada setiap fakultas?"
+            ],
+            "responses": [
+                "Anda dapat melihat rincian biayanya setiap fakultas pada laman http://bit.ly/BrosurPMBS1UBJ2023 "
+            ]
+        },
+        {
+            "tag": "info_dokumen_s1",
+            "patterns": [
+                "Apa saja dokumen yang diperlukan bagi pendaftar S1?",
+                "Apa saja berkas yang perlu disiapkan bagi program S1?",
+                "Berkas apa yang harus disiapkan bagi calon mahasiswa S1?"
+            ],
+            "responses": [
+                "Bagi mahasiswa S1 yang ingin mendaftar menjadi masyarakat Universitas Bhayangkara Jakarta Raya terdapat berkas yang harus disiapkan yaitu: \n a. Pass foto berwarna dngan background merah \n b. Kartu Identitas(KTP/Passport) \n c. Raport semester 4 & 5, Ijazah/transkip nilai dan bukti transfer pembayaran pendaftaran \n d. Kartu keluarga, Akte kelahiran dan Kartu tanda anggota bagi anggota POLRI"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_biaya_s1",
+            "patterns": [
+                "Bagaimana biaya pendaftaran ulang jika sudah dinyatakan lulus diprogram S1?",
+                "Berapa biaya daftar ulang yang harus dibayar bagi mahasiswa s1 yang dinyatakan lulus?"
+            ],
+            "responses": [
+                "Untuk biaya pendaftaran ulang di kirimkan ke Nomor Rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya, minimal pembayaran Rp.1.000.000"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_syarat",
+            "patterns": [
+                "Syarat apa saja yang dipersiapkan untuk daftar ulang bagi calon sarjana ?"
+            ],
+            "responses": [
+                "Persyaratan daftar ulang yaitu mempersiapkan berkas : \n 1. Scan surat keterangan lulus(bagi yang belum ada Ijazah) \n 2. Scan BPJS Kesehatan(bagi yang sudah memiliki) \n 3. Scan surat pernyataan mahasiswa yang dapat di download di https://pmb.ubharajaya.ac.id/"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_s2",
+            "patterns": [
+                "Apa saja hal yang perlu diperhatikan saat mendaftar menjadi mahasiswa baru magister?"
+            ],
+            "responses": [
+                "Registrasi penerimaan mahasiswa baru program magister (S2) yaitu, Membeli Formulir Pendaftaran untuk S2 Rp. 400.000, di Transfer Ke BRIVA yang telah diterima pada saat registrasi, Bagi Mahasiswa Pindahan dikenakan biaya konversi, Mengisi formulir pendaftaran online pada Web : https://pmb.ubharajaya.ac.id/ , Upload Scan Pas Foto berwarna (kemeja putih berdasi, background merah)"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_syarat_s2",
+            "patterns": [
+                "Apa saja persyaratan bagi mahasiswa baru magister ?"
+            ],
+            "responses": [
+                "Persyaratan Pendaftaran Bagi Magister \n 1. Foto & KTP \n 2. KK & AKTA \n 3. Ijazah S1 \n 4. Transkip S1 \n 5. Bukti terdata di PD-DIKTI \n 6. Akreditasi BAN-PT prodi asal \n 7. Bagi warga negara asing yang telah mendapatkan persetujuan dari Kemenristek "
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_biaya_s2",
+            "patterns": [
+                "Berapa biaya pendaftaran ulang bagi calon magister ?"
+            ],
+            "responses": [
+                "Pembayaran biaya daftar ulang bisa di bayarkan setelah dinyatakan lulus dan dapat daftar ulang ke rekening Bank BRI dengan nomor rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya minimal pembayaran Rp. 3.000.000"
+            ]
+        },
+        {
+            "tag": "info_daftar_ulang_upload_bukti",
+            "patterns": [
+                "Diupload kemana bukti pembayaran daftar ulang? ?"
+            ],
+            "responses": [
+                "Bukti pembayaran daftar ulang dapat di upload ke akun sistem PMB online dengan mencantumka nomor pendaftaran dan prodi diterima "
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_s2_hukum",
+            "patterns": [
+                "Bagaimana rincian biaya perkuliahan bagi calon magister program studi Hukum ?",
+                "Berapa biaya magister prodi hukum?"
+            ],
+            "responses": [
+                "Untuk rincian biaya magister hukum dapat dilihat sebagai berikut : \n 1. Dana Pengembangan Pendidikan (DPP) Rp.5.000.000 \n 2. BPP Rp.8.500.000 \n 3. Jaket Almamater Rp.300.000 \n 4. PKKMB Rp.350.000 \n 5. Tes TOEFL & Tes Narkoba Rp.200.000 \n 6. Biaya Kuliah Semester II s.d IV Rp.8.500.000 \n Denga total biaya semester 1 sebesar Rp.14.350.000"
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_s2_manajemen",
+            "patterns": [
+                "Bagaimana rincian biaya perkuliahan bagi calon magister program studi Manajemen ?"
+            ],
+            "responses": [
+                "Untuk rincian biaya magister manajemen dapat dilihat sebgai berikut : \n 1. Dana Pengembangan Pendidikan (DPP) Rp. 5.000.000 \n 2. BPP Rp. 8.500.000 \n 3.Jaket Almamater Rp. 300.000 \n 4.PKKMB Rp. 350.000 \n 5.Tes Toefl & Tes Narkoba Rp. 200.000 \n 6.Biaya Kuliah Semester II s.d  IV 8.500.000 \n Dengan total biaya semester 1 sebesar Rp. 14.350.000"
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_s2_akuntansi",
+            "patterns": [
+                "Bagaimana rincian biaya perkuliahan bagi calon magister program studi Akuntansi ?"
+            ],
+            "responses": [
+                "Untuk rincian biaya magister akuntansi dapat dilihat sebgai berikut : \n 1. Dana Pengembangan Pendidikan (DPP) Rp. 5.000.000 \n 2. BPP Rp. 7.500.000 \n 3.Jaket Almamater Rp. 300.000 \n 4.PKKMB Rp. 350.000 \n 5.Tes Toefl & Tes Narkoba Rp. 200.000 \n 6.Biaya Kuliah Semester II s.d  IV 7.500.000 \n Dengan total biaya semester 1 sebesar Rp. 13.350.000"
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_s2_ilmu_komunikasi",
+            "patterns": [
+                "Bagaimana rincian biaya perkuliahan bagi calon magister program studi ilmu komunikasi ?"
+            ],
+            "responses": [
+                "Untuk rincian biaya magister Ilmu Komunikasi dapat dilihat sebgai berikut : \n 1. Dana Pengembangan Pendidikan (DPP) Rp. 5.000.000 \n 2. BPP Rp. 7.500.000 \n 3.Jaket Almamater Rp. 300.000 \n 4.PKKMB Rp. 350.000 \n 5.Tes Toefl & Tes Narkoba Rp. 200.000 \n 6.Biaya Kuliah Semester II s.d  IV 7.500.000 \n Dengan total biaya semester 1 sebesar Rp. 13.350.000"
+            ]
+        },
+        {
+            "tag": "info_daftar_persyaratan_umum",
+            "patterns": [
+                "Apa saja hal yang perlu diperhatikan saat mendaftar menjadi mahasiswa baru doktor?"
+            ],
+            "responses": [
+                "Registrasi penerimaan mahasiswa baru program doktor (S3) yaitu, Membeli Formulir Pendaftaran untuk S3 Rp. 750.000, di Transfer Ke Bank BRI dengan Nomor rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya Mengisi formulir pendaftaran online pada Web : https://pmb.ubharajaya.ac.id/ "
+            ]
+        },
+        {
+            "tag": "info_daftar_berkas_s3",
+            "patterns": [
+                "Berkas Apa Saja yang harus disiapkan bagi pendaftar program S3?",
+                "Apa saja berkas yang harus siap bagi pendaftar sebagai mahasiswa doktoral?"
+            ],
+            "responses": [
+                "Berkas yang harus disiapkan bagi mahasiswa baru program doktor : \n 1.Foto & KTP \n 2.KK & Akte \n 3.Ijazah S1 & S2,Transkrip S1 & S2 \n 4.Bukti data di PD Dikti, Akreditasi BAN PT Prodi Asal \n 5.Bagi warga negara asing yang telah mendapatkan persetujuan dari KEMENRISTEK DIKTI \n 6.Surat rekomendasi kelayakan akademik program doktor dari calon promotor \n 7.Rencana proposal disertasi "
+            ]
+        },
+        {
+            "tag": "info_biaya_daftar_s3",
+            "patterns": [
+                "Berapa biaya pendaftaran ulang bagi calon doktor ?",
+                "Berapa jumlah yang harus dibayarkan untuk daftar ulang bagi mahasiswa doktor?"
+            ],
+            "responses": [
+                "Pembayaran biaya daftar ulang bisa di bayarkan setelah dinyatakan lulus dan dapat daftar ulang ke rekening Bank BRI dengan nomor rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya minimal pembayaran Rp. 5.000.000"
+            ]
+        },
+        {
+            "tag": "masa_studi_s2&s3",
+            "patterns": [
+                "Berapa masa studi program magister dan doktoral di Ubhara Jaya ?",
+                "berapa lama masa studi program magister dan doktor?"
+            ],
+            "responses": [
+                "Masa studi program magister menempuh 4 semester atau 2 tahun sedangkan pada program doktoral menempuh 6(enam) semester atau 3 tahun"
+            ]
+        },
+        {
+            "tag": "info_biaya_kuliah_cicilan",
+            "patterns": [
+                "Apakah biaya kuliah dapat dicicil ?"
+            ],
+            "responses": [
+                "Tentu saja, dengan setiap programnya berbeda \u2013 beda ketentuannya"
+            ]
+        },
+        {
+            "tag": "info_contact_person",
+            "patterns": [
+                "apakah ada contact person yang bisa dihubungi saat terdapat kesalahan saat mengisi data ?",
+                "Jika terdapat kesalahan data, dapat menghubungi siapa?",
+                "Kontak person yang bisa dihubungi"
+            ],
+            "responses": [
+                "Anda dapat menghubungi Hotline pmb (whatsapp/+62812-4180-0100) dan email kampus Universitas Bhayangkara Jakarta Raya(info@ubharajaya.ac.id)"
+            ]
+        },
+        {
+            "tag": "info_beasiswa_non_akademik",
+            "patterns": [
+                "Apakah ada jalur pendaftaran khusus bagi calon mahasiswa berprestasi Non-akademik?",
+                "Apakah ubhara jaya menyediakan beasiswa non-akademik?"
+            ],
+            "responses": [
+                "Ada jalur khusus yang disediakan bagi calon mahasiswa berprestasi Non-akademik seperti atlet yang bisa di urus langsung oleh Fakultas Ilmu Pendidikan Program Studi Pendidikan Kepelatihan Olahraga"
+            ]
+        },
+        {
+            "tag": "info_jalur_undangan",
+            "patterns": [
+                "Apakah ada jalur Undangan di Universitas Bhayangkara Jakarta Raya?"
+            ],
+            "responses": [
+                "Untuk jalur Undangan saat ini belum ada"
+            ]
+        },
+        {
+            "tag": "info_jadwal_informasi",
+            "patterns": [
+                "Kapan jadwal informasi pendaftaran di Universitas Bhayangkara Jakarta raya ini ?"
+            ],
+            "responses": [
+                "Informasi Pendaftaran buka setiap hari kerja Senin s.d Jum'at pukul 08.00 - 16.00 WIB"
+            ]
+        },
+        {
+            "tag": "info_prosedur_ujian",
+            "patterns": [
+                "Bagaimana prosedur mengikuti ujian di kampus universitas bhayangkara jakarta raya ini ?"
+            ],
+            "responses": [
+                "Pertama harus terdaftar sebagai calon mahasiswa, serta membayar biaya pendaftaran dan mengirimkan berkas yang sudah di tentukan agar dapat lanjut ke tahap ujian di Universitas Bhayangkara Jakarta Raya."
+            ]
+        },
+        {
+            "tag": "info_dresscode_ujian",
+            "patterns": [
+                "Apakah ada pakaian khusus yang harus digunakan saat melaksanakan ujian ?"
+            ],
+            "responses": [
+                "Untuk mengikuti ujian terdapat pakaian yang ditentukan, untuk Laki - Laki Celana Bahan hitam dan kemeja putih untuk Perempuan rok bahan hitam dan kemeja/lengan panjang putih."
+            ]
+        },
+        {
+            "tag": "info_seleksi_ujian",
+            "patterns": [
+                "apakah ada seleksi tulis untuk masuk ke ubhara jaya?"
+            ],
+            "responses": [
+                "Ada, dengan jadwal ujian sesuai anda mendaftar di laman PMB Universitas Bhayangkara Jakarta Raya"
+            ]
+        },
+        {
+            "tag": "info_ujian",
+            "patterns": [
+                "Apa yang harus di persiapkan saat akan melaksanakan ujian ?"
+            ],
+            "responses": [
+                "Untuk ujian tertulis di Ubhara Jaya dilaksanakan secara online. Dimana anda harus mempersiapkan kartu tanda ujian yang bisa di cetak setelah mendaftar online, mempersiapkan perlengkapan tulis(balpoint,pensil 2B,penghapus,rautan). Hadir 30 menit sebelum tes dimulai. Setiap tahap yang telah diselesaikan, peserta harus menginformasikan kepada petugas jika sudah menyelesaikan ujian tersebut"
+            ]
+        },
+        {
+            "tag": "info_pembayaran",
+            "patterns": [
+                "Bagaimana sistem pembayaran biaya kuliah di universitas bhayangkara jakarta raya?"
+            ],
+            "responses": [
+                "Melalui transfer ke briva yang sudah di tentukan saat pertama kali anda mendaftar dan konfirmasi kepada ke biro keuangan."
+            ]
+        },
+        {
+            "tag": "info_pembayaran_potongan",
+            "patterns": [
+                "Apakah ada potongan biaya bagi orang tua mahasiswa yang bekerja sebagai TNI/Polri"
+            ],
+            "responses": [
+                "Terdapat potongan 50% dari BPP (Biaya perkuliahan persemester) bagi orang tua mahasiswa yang merupakan anggota POLRI/PNS POLRI aktif, Pensiunan POLRI dan PNS POLRI dengan menunjukkan kartu anggota"
+            ]
+        },
+        {
+            "tag": "info_beasiswa",
+            "patterns": [
+                "Apakah kampus ini dapat memberikan beasiswa bagi mahasiswa yang berprestasi ?"
+            ],
+            "responses": [
+                "Bagi mahasiswa yang berprestasi akan mendapatkan beasiswa dari pihak kampus contoh yang sudah mendapatkan beasiswa tersebut yaitu atlet wushu bernama Edgar Xavier Marvello Mahasiswa Fakultas Pendidikan Kepelatihan Olahraga mendapatkan medali emas kejuaran dunia Wushu Taqlu 2022 ,cabang Wushu PON XX Papua dan medali emas Sea Games XXXII Kamboja Tahun 2023, Medali perak Cabang karate PON XX Papua Nadien Rizqi Athira dan Naila Rizki Athala dan juara 1 lomba Internasional Scientific Article atas nama Mita Setiani mahasiswa Fakultas Ilmu Pendidikan Program Studi PGSD 2018 dan Putri Ayu Agustina mahasiswa PGSD 2020"
+            ]
+        },
+        {
+            "tag": "info_beasiswa_maba",
+            "patterns": [
+                "Apa saja jenis beasiswa yang tersedia untuk mahasiswa baru ?"
+            ],
+            "responses": [
+                "Beasiswa yang tersedia di lingkungan Universitas Bhayangkara Jakarta Raya terdiri dari, Kartu Indonesia Pintar serta Beasiswa Pemkot Bekasi."
+            ]
+        },
+        {
+            "tag": "info_double_degree",
+            "patterns": [
+                "Apakah ada program double degree di universitas bhayangkara jakarta raya?",
+                "apakah kampus ini sudah ada program double degree?"
+            ],
+            "responses": [
+                "Saat ini kampus Universitas Bhayangkara Jakarta Raya ini belum menyediakan program double degree"
+            ]
+        },
+        {
+            "tag": "info_beasiswa_kipk",
+            "patterns": [
+                "Apakah Universitas Bhayangkara Jakarta Raya menyediakan program beasiswa KIPK bagi calon mahasiswa baru?"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta Raya menyediakan program Kipk bagi setiap calon mahasiswa yang memenuhi persyaratan"
+            ]
+        },
+        {
+            "tag": "info_program_pertukaran",
+            "patterns": [
+                "Apakah ada program pertukaran pelajar dengan universitas di luar negeri?"
+            ],
+            "responses": [
+                "Universitas Bhayangkara Jakarta Raya sudah bekerja sama dengan kemedikbudristek dan program kampus merdeka dimana pada program tersebut terdapat kegiatan internasional seperti IISMA, Pertukaran Mahasiswa dan Bangkit"
+            ]
+        },
+        {
+            "tag": "info_ujian_masuk",
+            "patterns": [
+                "Apakah ada ujian masuk atau tes seleksi untuk PMB di universitas bhayangkara jakarta raya?"
+            ],
+            "responses": [
+                "Ada tes akademik yang dilakukan secara online"
+            ]
+        },
+        {
+            "tag": "info_jenis_ujian",
+            "patterns": [
+                "Apa saja jenis ujian yang biasanya dilakukan dalam proses seleksi PMB?"
+            ],
+            "responses": [
+                "Tes akademik setelah menjadi mahasiswa ada tes toefl dan tes narkoba"
+            ]
+        },
+        {
+            "tag": "info_penilaian_berkas",
+            "patterns": [
+                "Apa yang dinilai dalam tes seleksi PMB di universitas bhayangkara jakarta raya?"
+            ],
+            "responses": [
+                "Yang dinilai itu dari soal dan di rata - rata, jika mendaftar sebagai atlet bisa di nilai langsung oleh fakultas pendidikan keolahragaan"
+            ]
+        },
+        {
+            "tag": "info_sistem_pengumuman",
+            "patterns": [
+                "Bagaimana sistem pengumuman hasil seleksi PMB di universitas bhayangkara jakarta raya?"
+            ],
+            "responses": [
+                "Ketika sudah di nyatakan lulus ada surat keputusan rektor di umumkan di akun pendaftaran, web ubhara jaya dan mading kampus"
+            ]
+        },
+        {
+            "tag": "info_daftar_sertifikat",
+            "patterns": [
+                "Apakah perlu melampirkan sertifikat prestasi akademik atau non-akademik?"
+            ],
+            "responses": [
+                "Untuk melampirkan sertfikat akademik dan non-akademik itu tidak wajib jika anda memiliki sertfikat tersebut bisa dilampirkan saat mendaftar"
+            ]
+        },
+        {
+            "tag": "info_daftar_lulusan_ptlain",
+            "patterns": [
+                "apakah lulusan perguruan tinggi lain dapat mengajukan pendaftaran sebagai mahasiswa pindahan?"
+            ],
+            "responses": [
+                "lulusan perguruan tinggi yang lain dapat melakukan pendaftaran sebagai mahasiswa pindahan, namun perlu diperhatikan bahwa perguruan tinggi sebelumnya memiliki akreditasi yang sama dengan yang ada di universitas bhayangkara jakarta raya"
+            ]
+        }
+    ]
+}
